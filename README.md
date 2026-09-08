@@ -70,24 +70,7 @@ The final analysis translates findings into a prioritized **Business Action Plan
 - Using engagement and support signals — rather than pricing — as early warning indicators for at-risk accounts
 - Operationalizing churn risk tiers (`Critical` / `High` / `Medium` / `Low`) to guide proactive customer success outreach
 
-## Repository Structure
 
-├── README.md
-├── project_brief.docx          # Full project documentation (workflow, hypotheses, findings)
-├── advanced_sql_analysis.sql   # 32 business-question SQL queries (descriptive → prescriptive)
-├── schema/                     # Table creation scripts
-└── eda/                        # Exploratory data analysis queries
-
-## Getting Started
-
-1. Clone the repository
-2. Set up a PostgreSQL instance and create the schema using the scripts in `schema/`
-3. Load the dataset into the tables
-4. Run the queries in `advanced_sql_analysis.sql` to reproduce the analysis
-
-## Status
-
-Project complete — from data modeling through final recommendations and presentation.
 
 
 *This project was built as an end-to-end demonstration of SQL-driven product analytics for SaaS retention strategy.*
